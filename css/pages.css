@@ -379,12 +379,13 @@ p {
   padding: .5rem;
 }
 #video {
-  display: flex;
+  display: block;
   margin: auto;
-  width: 500px;;
+  width: auto;
   justify-content: center;
   padding: 10px 0 10px 0;
-  height: 350px;
+  height: auto;
+  
 }
 section #underConstruction {
   max-width: 400px;
@@ -566,6 +567,16 @@ Img#ss {
   }
   #moreMedia {
     clear: both;
+  }
+  #video {
+    display: flex;
+    margin: auto;
+    max-width: 500px;
+    width: 460px;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    height: 300px;
+    
   }
 
   /* 
